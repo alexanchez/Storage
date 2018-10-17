@@ -1,6 +1,6 @@
 package com.stackers.storage.model;
 
-public class Response {
+public class ClientResponse {
     private int id;
     private int id_client;
     private String robotName;
@@ -9,10 +9,10 @@ public class Response {
     //private Priority priority;
     private String container_code;
 
-    public Response() {
+    public ClientResponse() {
     }
 
-    public Response(int id, int id_client, String robotName, String source, String target, String container_code) {
+    public ClientResponse(int id, int id_client, String robotName, String source, String target, String container_code) {
         this.id = id;
         this.id_client = id_client;
         this.robotName = robotName;

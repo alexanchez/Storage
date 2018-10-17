@@ -1,11 +1,11 @@
 package com.stackers.storage.service.request.interfaces;
 
-import com.stackers.storage.Command;
-import com.stackers.storage.model.Request;
-import com.stackers.storage.model.Response;
+import com.stackers.storage.ClientCommand;
+import com.stackers.storage.model.ClientRequest;
+import com.stackers.storage.model.ClientResponse;
 
 public interface IResponseService {
-    Response getResponse(Request request);
-    Response getResponse(Command command, String cellId);
+    ClientResponse getResponse(ClientRequest clientRequest);
+    ClientResponse getResponse(ClientCommand clientCommand, String cellId);
 
 }

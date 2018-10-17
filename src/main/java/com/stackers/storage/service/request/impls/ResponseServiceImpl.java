@@ -1,8 +1,8 @@
 package com.stackers.storage.service.request.impls;
 
-import com.stackers.storage.Command;
-import com.stackers.storage.model.Request;
-import com.stackers.storage.model.Response;
+import com.stackers.storage.ClientCommand;
+import com.stackers.storage.model.ClientRequest;
+import com.stackers.storage.model.ClientResponse;
 import com.stackers.storage.service.request.interfaces.IResponseService;
 import org.springframework.stereotype.Service;
 
@@ -10,12 +10,12 @@ import org.springframework.stereotype.Service;
 
 public class ResponseServiceImpl implements IResponseService {
     @Override
-    public Response getResponse(Request request) {
+    public ClientResponse getResponse(ClientRequest clientRequest) {
         return null;
     }
 
     @Override
-    public Response getResponse(Command command, String cellId) {
-        return new Response(1,2,"firstRobot",cellId,"001L002","101");
+    public ClientResponse getResponse(ClientCommand clientCommand, String cellId) {
+        return new ClientResponse(1,2,"firstRobot",cellId,"001L002","101");
     }
 }
