@@ -1,7 +1,5 @@
 package com.stackers.storage.model;
 
-import com.stackers.storage.RobotCommand;
-
 public class RobotRequest {
     private String id;
     private RobotCommand robotCommand;

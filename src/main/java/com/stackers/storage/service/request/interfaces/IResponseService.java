@@ -1,6 +1,6 @@
 package com.stackers.storage.service.request.interfaces;
 
-import com.stackers.storage.ClientCommand;
+import com.stackers.storage.model.ClientCommand;
 import com.stackers.storage.model.ClientRequest;
 import com.stackers.storage.model.ClientResponse;
 

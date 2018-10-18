@@ -1,6 +1,6 @@
 package com.stackers.storage.controller;
 
-import com.stackers.storage.ClientCommand;
+import com.stackers.storage.model.ClientCommand;
 import com.stackers.storage.model.ClientResponse;
 import com.stackers.storage.service.request.impls.ResponseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,5 @@
 package com.stackers.storage.model;
 
-import com.stackers.storage.CommandState;
-import com.stackers.storage.RobotPlat;
-import com.stackers.storage.RobotState;
-
 public class RobotResponse {
     private int id;
     private RobotState robotState;
